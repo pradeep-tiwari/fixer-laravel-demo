@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "b75470aac73e952825f81b653efe804a",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -783,6 +783,32 @@
                 "random"
             ],
             "time": "2017-03-13T16:27:32+00:00"
+        },
+        {
+            "name": "pramod/fixer-sdk",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pradeep-tiwari/fixer-sdk.git",
+                "reference": "79d2d3d418e92721ac456b64dcefdcaaa55e3026"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "FixerClient.php"
+                ],
+                "psr-4": {
+                    "sdk\\": "sdk/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Pradeep T.",
+                    "email": "pt21388@gmail.com"
+                }
+            ],
+            "description": "Demo fixer-sdk",
+            "time": "2017-06-30 13:16:25"
         },
         {
             "name": "psr/log",
@@ -3361,7 +3387,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "pramod/fixer-sdk": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
